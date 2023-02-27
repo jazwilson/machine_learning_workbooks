@@ -1,4 +1,4 @@
-name: pyds_workbook
+name: workbook
 channels:
         - conda-forge
         - bioconda
