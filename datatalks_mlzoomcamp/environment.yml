@@ -1,4 +1,4 @@
-name: workbook
+name: mlz
 channels:
         - conda-forge
         - bioconda
@@ -12,9 +12,6 @@ dependencies:
         - numpy
         - scipy
         - python=3.9
-        - yfinance 
-        - numexpr
-        - seaborn
         - scikit-learn
 
 #conda install -c conda-forge ipympl ## for jupyter

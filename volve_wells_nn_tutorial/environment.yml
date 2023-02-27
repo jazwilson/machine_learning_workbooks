@@ -3,19 +3,22 @@ channels:
         - conda-forge
         - bioconda
 dependencies:
-        - matplotlib
-        - pandas
+
+        # core
         - jupyterlab_widgets
         - ipywidgets
         - ipykernel 
         - jupyterlab
-        - numpy
-        - scipy
+
+        # computational
         - python=3.9
-        - yfinance 
-        - numexpr
-        - seaborn
+        - pandas
+        - numpy
         - scikit-learn
+
+        # Visualisation
+        - matplotlib
+
 
 #conda install -c conda-forge ipympl ## for jupyter
 
